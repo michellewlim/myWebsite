@@ -1,1 +1,115 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html>
+  <link rel = 'stylesheet' href = 'random.css'>
+  <script src = 'random.js'> </script>
+  <head>
+    <title>
+    </title>
+    <style>
+      body{
+        background-color: #eae0f9;
+        no-repeat fixed center;
+      }
+      #d {
+        height =  px;
+        width = 200 px;
+        background-color : white;
+      }
+      #a{
+        color : #bc9a29;
+      }
+      #b{
+        color : #7e34d8;
+      }
+      #c {
+        color : #00e1ff;
+      }
+
+    </style>
+  </head>
+  <body >
+    <script>
+      function changeColor(newColor){
+        var elem = document.getElementById('para');
+        elem.style.color = newColor;
+      }
+    </script>
+
+    <div id = 'd'>
+      <center>
+        <br>
+        <h1>HI!</h1>
+        <h4>my name is michelle but adina calls me matthew</h4>
+        <br>
+      </center>
+    </div>
+    <p style = "font-size : 150%">
+<!--     <img src='neon_heart.jpg' height = '100' width = '90' float:'left'>
+//      <a href = "https://www.google.com/" target = '_blank'> click me to open a new tab and go to google</a>
+-->  I am <span id = 'a'><font size = '300'>16</font></span> years old. I have a brother and play volleyball.</p>
+    <p align = 'center'>I really like the color of this background. My favorite colors are <span id = 'b'><font size = '300'>purple</font></span> and <span id = 'c'><font size = '300'>blue</font></span>. <br>
+      Actually I like a bunch of different colors, but I think I like pastels better.</p>
+      <p align = 'right'> <font size = 120> I go to american high school and am going to be a senior!!! <span style = 'color: #9b853e'>WOOO GO COLLEGE APPS!</span></font></p>
+      <h3 >This is a section about Julie <img src='neon_heart.jpg' height = '100' width = '90'></h3>
+      <p>
+        She says oh ok I I was born in oakland. ok I was born in oakland, California. Um I do not really like michelle or matthew. The end.
+      </p>
+      <p>
+      <button align = 'right'> <a href = "https://www.google.com/" target = '_blank' ><font size = "50">to google!!!</font size></a></button>
+      <span style = 'color:#f2096a'>--------------------------------------------------------------------------------------- </span><br>
+      <center>|<br>|<br>|</center>
+      </p>
+      <h4 align = 'right'> <span style = 'color : #f2096a'>
+        ---------------------------------if you wanna search something up, heres a link to google. Just follow the dashes
+      </span></h4>
+      <p style = 'font-family:Kalam' id = "para" ><font size = "6">
+      I'm not sure what to do with this paragraph. I think I want something to do with javascript but im not sure yet. Haha this sounds like Karla's page buuttttt...
+      I play volleyball. I played for the school team and I had a coach named Sarah and a coach named Abby Bowman. I played for club and I had a coaches named Nikki and Jessica,
+      I had a coach named Carlos, a coach named Minh, another named Amri, one named Krissa, and two others named Andi and Jin. I like pineapple and watermelon and mangoes and cherries.
+      I like coding and engineering. I think robotics is fun too. I want a pet monkey or maybe a dolphin. Isn't that cool beans. I made up a word. It's called dabbles!!!. Dabbly doo
+      how are you. Emily went to France and Anjali went to India. Melody went to Estonia and Chris went to Taiwan. Sophie went to Taiwan too and so did Brandon and Jason and Emily,
+      other Emily ig. WOW lots of ppl went to Taiwan. Now look below for the row of buttons. They'll change the color tooo...
+    </font size></p>
+      <button onclick = "changeColor('#db5a0f');"> <font size = "6">orangish</font size> </button>
+      <button onclick = "changeColor('blue');"> <font size = "6">BLUE</font size> </button>
+      <button onclick = "changeColor('#23af6e');"> <font size = "6">sea green?</font size> </button>
+      <button onclick = "changeColor('#ff0050');"> <font size = "6">flamingos</font size> </button>
+      <button onclick = "changeColor('#7737b7');"> <font size = "6">lavender</font size> </button>
+      YAY LOOK AT THE COLORS :)
+    <h2>
+      below here stands an invisible paragraph. Right now im thinking about what to write it on.
+    </h2>
+    <p align = 'right' style = 'color: #c13cb8'> <font size = "4">
+          Look <font size = "5">BELOW</font size> vv (imagine that's an arrow). There <br>
+          is a light bulb that is off. <font size = "5">IF</font size> you have an idea, <br>
+          <font size = "5">CLICK</font size> on it! <font size = "5">BUT </font size>if you forget the idea remember to <br>
+          click on it <font size = "5">AGAIN</font size> in order to turn it off!!!
+    </font size></p>
+    <img src = 'hello_b.jpg' align = "left"> <img id="myImage" onclick="changeImage()" src="light_off.jpg" width="200" height="210" ALIGN = 'right'>
+
+    <p style = 'color: #f9b266'><font size = '5'>I like traveling and going places. If I cound go anywhere in the world I would want
+    to go somewhere in Europe. Claire is in Europe right now and she says that everything is
+    really high tech but people are a little rude I think. Or maybe I would want to go to Taiwan.
+    Sophie says that they have great food and there is a bunch of cute cheap stuff to buy.
+    I think Taiwan is the one that has good street food and snacks that you can buy at the 7/11s
+    and other gas station markets. Or I think I would want to go to Indonesia. I could visit all my cousins and aunts and
+    uncles and grandparent and all the places I used to go when I was little. I love the food there
+    and all the desserts. I love all the markets there. Or maybe I would go to Bali which
+    is technically part of Indonesia too but I would want
+    to go to beach and go back to the huge market I once went to. I remember buying a bunch of
+    bracelets. I think I still have some of them. If I could go back there, I think I would buy
+    a lot more of them.
+</p></font size>
+
+    <script>
+    function changeImage() {
+      var image = document.getElementById('myImage');
+      if (image.src.match("on")) {
+          image.src = "light_off.jpg";
+        } else {
+          image.src = "light_on.jpg";
+        }
+      }
+</script>
+  </body>
+</html>
