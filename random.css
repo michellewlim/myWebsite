@@ -1,3 +1,105 @@
 h1 {
   font-size: 100;
 }
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+body {
+  background-color: #c8afdb;
+}
+
+p {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 4px #00e1ff;
+}
+
+th {
+  border: 4px #00e1ff;
+}
+
+td {
+  border: 4px #00e1ff;
+}
+
+.data {
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.data1 {
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.name {
+  padding-left: 300px;
+  padding-right: 50px;
+}
+
+.description {
+  padding-left: 50px;
+  padding-right: 300px;
+}
+
+.title {
+  padding-top: 100px;
+}
+
+#d {
+  height: 500 px;
+  width: 200 px;
+  padding: 200px;
+}
+
+#a {
+  color: #bc9a29;
+}
+
+#b {
+  color: #7e34d8;
+}
+
+#c {
+  color: #00e1ff;
+}
