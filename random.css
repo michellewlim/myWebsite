@@ -36,27 +36,13 @@ h1 {
 }
 
 body {
-  background-color: #c8afdb;
-}
-
-p {
-  padding-right: 100px;
-  padding-left: 100px;
+  background-color: #d8d3c6;
 }
 
 table {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  border: 4px #00e1ff;
-}
-
-th {
-  border: 4px #00e1ff;
-}
-
-td {
-  border: 4px #00e1ff;
 }
 
 .data {
@@ -83,23 +69,34 @@ td {
 }
 
 .title {
-  padding-top: 100px;
+  padding-top: 50px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
 }
 
 #d {
-  height: 500 px;
+  height: 400 px;
   width: 200 px;
-  padding: 200px;
+  padding: 100px;
+  text-align: center;
 }
 
-#a {
-  color: #bc9a29;
+.me {
+  border-radius: 50%;
+  width: 200px;
+  height: 220px;
 }
 
-#b {
-  color: #7e34d8;
+.carouselWrapper {
+  position: absolute;
+  left: 50%;
+  margin-left: -250px;
 }
 
-#c {
-  color: #00e1ff;
+.pics {
+  padding-left: 10px;
+  padding-right: 10px;
 }
